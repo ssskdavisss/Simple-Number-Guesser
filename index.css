@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(18, 20, 20);
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: #cad806;
+  padding: 2%;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 3%;
+}
+
+input {
+  height: 1.2vw;
+  border-color: rgb(255, 193, 35);
+  border-radius: 0.5vw;
+  background-color: black;
+  color: #cad806;
+}
+
+button {
+  padding: 1%;
+  background-color: #cad806;
+  border-color: #cad806;
+  border-radius: 0.2vw;
+  font-size: 0.8vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff700;
+  color: rgb(21, 19, 19);
+  transform: scale(1.1);
+  transition: 1s;
+}
